@@ -1,0 +1,4 @@
+node_modules/
+.env
+*.csv
+last_sync_timestamp.txt
