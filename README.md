@@ -59,8 +59,8 @@ Before you begin, ensure you have:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/raindrop-omnivore-sync.git
-   cd raindrop-omnivore-sync
+   git clone https://github.com/yourusername/rainomni.git.git
+   cd rainomni
    ```
 
 2. Install dependencies:
@@ -96,7 +96,7 @@ Before you begin, ensure you have:
 1. Create a service file:
 
    ```bash
-   sudo nano /etc/systemd/system/raindrop-omnivore-sync.service
+   sudo nano /etc/systemd/system/rainomni.service
    ```
 
 2. Add the following content (replace paths and username):
@@ -121,19 +121,19 @@ Before you begin, ensure you have:
 3. Enable and start the service:
 
    ```bash
-   sudo systemctl enable raindrop-omnivore-sync
-   sudo systemctl start raindrop-omnivore-sync
+   sudo systemctl enable rainomni
+   sudo systemctl start rainomni
    ```
 
 4. Check service status:
 
    ```bash
-   sudo systemctl status raindrop-omnivore-sync
+   sudo systemctl status rainomni
    ```
 
 5. View logs:
    ```bash
-   journalctl -u raindrop-omnivore-sync -f
+   journalctl -u rainomni -f
    ```
 
 ### Customization
